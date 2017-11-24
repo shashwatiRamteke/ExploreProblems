@@ -32,7 +32,30 @@ public class SuperBalancedTree {
         System.out.println(rootNode.value);
         printTree(rootNode.right);
     }
-    
+
+    public static int getHeight(BinaryTreeNode rootNode)
+    {
+        if(rootNode == null)
+            return 0;
+        else
+            return Math.max(getHeight(rootNode.left),getHeight(rootNode.right)) + 1;
+    }
+
+    public static boolean isBalanaced(BinaryTreeNode rootNode)
+    {
+        if(rootNode == null)
+        {
+            return true;
+        }
+        if(Math.abs(getHeight(rootNode.right) - getHeight(rootNode.left)) > 1)
+        {
+            return false;
+        }
+        else
+        {
+            return isBalanaced(rootNode.left) && isBalanaced(rootNode.right);
+        }
+    }
 
     public static void main(String[] args) {
         BinaryTreeNode root = null;
@@ -68,5 +91,11 @@ public class SuperBalancedTree {
 
         System.out.println("Print the Binary Tree");
         printTree(root);
+        System.out.println("Height of the tree is ");
+        System.out.println(getHeight(root));
+
+        System.out.println("is Balanced ");
+        System.out.println(isBalanaced(root));
+
     }
 }
