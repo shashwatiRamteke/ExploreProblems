@@ -1,4 +1,4 @@
-package com.dsproblems.perm;
+package com.dsproblems.perm.dynamicprogramming;
 
 import java.util.Arrays;
 
