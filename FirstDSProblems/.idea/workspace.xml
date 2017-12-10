@@ -22,11 +22,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fibonnaci.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fibonnaci.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dsproblems/fIbonnaci/Fibonnaci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="458">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CakeProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dsproblems/CakeProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-440">
+              <caret line="57" column="77" lean-forward="true" selection-start-line="57" selection-start-column="77" selection-end-line="57" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#497#507#0" expanded="true" />
+                <element signature="e#1014#1032#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplementQueueWithStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dsproblems/ImplementQueueWithStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -78,6 +102,8 @@
         <option value="$PROJECT_DIR$/src/com/graph/DFSRecursive.java" />
         <option value="$PROJECT_DIR$/src/com/dsproblems/findrotation/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/com/dsproblems/fIbonnaci/Fibonnaci.java" />
+        <option value="$PROJECT_DIR$/src/com/dsproblems/CakeProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/dsproblems/ImplementQueueWithStack.java" />
       </list>
     </option>
   </component>
@@ -149,15 +175,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonnaci">
-    <configuration name="DFSGraph$Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CakeProblem">
+    <configuration name="CakeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.graph.*" />
+          <option name="PATTERN" value="com.dsproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.graph.DFSGraph$Graph" />
+      <option name="MAIN_CLASS_NAME" value="com.dsproblems.CakeProblem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -328,18 +354,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.DFSGraph" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DFSGraph$Graph" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DFSRecursive" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Dictionary" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Fibonnaci" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DFSRecursive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Dictionary" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Fibonnaci" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CakeProblem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Fibonnaci" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Dictionary" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DFSGraph" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DFSRecursive" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DFSGraph$Graph" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CakeProblem" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Fibonnaci" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Dictionary" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DFSGraph" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DFSRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +616,7 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -826,8 +852,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dsproblems/fIbonnaci/Fibonnaci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="458">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dsproblems/CakeProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="57" column="77" lean-forward="true" selection-start-line="57" selection-start-column="77" selection-end-line="57" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#507#0" expanded="true" />
+            <element signature="e#1014#1032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dsproblems/ImplementQueueWithStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
           <folding />
         </state>
       </provider>
