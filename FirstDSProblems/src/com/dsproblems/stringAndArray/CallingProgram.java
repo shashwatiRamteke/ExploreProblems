@@ -8,7 +8,8 @@ public class CallingProgram {
         for (int res : finalresult) {
             System.out.println(res);
         }*/
-
-        System.out.println(PermutationString.permutationOfEachOther("teet" ,"eetr"));
+        //int[] arr = {1,2,4,5,6};
+        //Sum.runningSum(arr);
+        SlidingWindowLengthOfString.lengthOfLongestSubstring("abcabcde");
     }
 }
